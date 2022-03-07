@@ -1,1 +1,1 @@
-# Resposive-2-Mode-Index-for-Drive
+# Responsive-2-Mode-Index-for-Drive
