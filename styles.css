@@ -320,17 +320,79 @@
 }
 
 .sidebar .nav-list .setting-dropdown .settings-dropdown-menu {
-  opacity: 0;
+  display: none;
 }
 
+.sidebar.open .nav-list .setting-dropdown .settings-dropdown-menu.active {
+  display: block;
+}
 .sidebar.open .nav-list .settings-dropdown-menu{
   opacity: 1;
   padding-left: 25px; 
   transition: all 1s ease;
 }
-.logo-details img{
+.logo-details img {
   display: block;
   margin: 10px 0 0 4px;
   width: 40px;
   filter: invert(1);
+}
+.social-media  {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  bottom: 20px;
+}
+.social-media a {
+  justify-content: center;
+  align-content: center;
+  max-height: 60px;
+}
+.social-media .telegram-icon,
+.social-media .github-icon {
+  position: sticky;
+  margin: 0;
+  bottom: 20px;
+  max-height: 60px;
+  height: 25px;
+  width: 25px;
+  filter: invert(1);
+}
+.social-media .telegram-icon:hover,
+.social-media .github-icon:hover {
+  filter: invert(0);
+}
+.social-media:hover {
+  background: none;  
+}
+.sidebar.open .nav-list .social-media  {
+  flex-direction: row; 
+}
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+}
+
+.container svg {
+  float: right;
+  height: 2.5em;
+  width: 2.5em;
+  margin: 1.15em 2em;
+  cursor: pointer;
+}
+.container img {
+  float: right;
+  height: 2.5em;
+  width: 2.5em;
+  margin: 1.2em 0;
+  cursor: pointer;
 }
