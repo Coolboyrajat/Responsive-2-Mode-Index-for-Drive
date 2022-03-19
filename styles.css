@@ -320,11 +320,16 @@
 }
 
 .sidebar .nav-list .setting-dropdown .settings-dropdown-menu {
-  display: none;
+  opacity: 0;
+}
+
+.sidebar .nav-list .setting-dropdown .settings-dropdown-menu,
+.sidebar.open .nav-list .setting-dropdown .settings-dropdown-menu {
+  display: block; 
 }
 
 .sidebar.open .nav-list .setting-dropdown .settings-dropdown-menu.active {
-  display: block;
+  display: block;  //Javascript work
 }
 .sidebar.open .nav-list .settings-dropdown-menu{
   opacity: 1;
@@ -342,17 +347,18 @@
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 132px;
   bottom: 20px;
+  margin-bottom: 16px;
 }
 .social-media a {
   justify-content: center;
   align-content: center;
+  margin: 8px 0;
   max-height: 60px;
 }
-.social-media .telegram-icon,
-.social-media .github-icon {
-  position: sticky;
+.social-media a img {
+  display: flex;
   margin: 0;
   bottom: 20px;
   max-height: 60px;
@@ -360,8 +366,7 @@
   width: 25px;
   filter: invert(1);
 }
-.social-media .telegram-icon:hover,
-.social-media .github-icon:hover {
+.social-media a img:hover {
   filter: invert(0);
 }
 .social-media:hover {
