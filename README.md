@@ -1,8 +1,8 @@
 # Responsive-2-Mode-Index-for-Drive
 
 
-* [Link 1](https://responsive-sidebar-navigation-menu.netlify.app/)
-* [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html)
+* [Link 1](<a target="_blank">https://responsive-sidebar-navigation-menu.netlify.app/</a>)
+* [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html target="_blank")
 
 <br>
 
