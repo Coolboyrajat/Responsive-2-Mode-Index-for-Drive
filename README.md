@@ -1,5 +1,16 @@
 # Responsive-2-Mode-Index-for-Drive
-
+# About  
+#### This the currently a Front-End Page using HTML, CSS and JAVASCRIPT. I'm currently working with Javascript to make it more responsive.
+# Aim <br>
+  - [x] Front-End Deploymnet
+  - [ ] Make Page Responsive 
+  - [ ] Toggle Using Javascript
+  - [ ] Pull data from Google Drive using api
+  - [ ] Using React Js, deploy the WebApp in cloudflare.
+ 
+   
+ 
+ ##
 
 * [Link 1](https://responsive-sidebar-navigation-menu.netlify.app/)
 * [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html)
@@ -20,3 +31,9 @@
 ## Contributer:
 
 In Search of....
+
+
+  * Nested bullet
+      * Sub-nested bullet etc
+           * Bullet list item 2
+
