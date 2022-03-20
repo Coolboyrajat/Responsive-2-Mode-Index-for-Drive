@@ -28,12 +28,22 @@
     > Permission to Edit/Change Content on Page.
 <br>
 
+## Features
+
+- [x] 👑 Page-level caching, browser forward and backward without reloading (MAC users have a better experience with the trackpad)
+- [x] 🗂 Multi drive switching
+- [ ] <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="16px" width="16"/> Search whole DRIVE / TEAM DRIVES through root drive [if and only root_drive_mail is provided ]  or Selected Team Drives 
+- [x] 🔐 Http Basic Auth
+- [x] 🎨 Grid view mode (File Preview)
+- [x] 🎯 Paging load
+- [x] 🖥 Video Online ( .vtt subtitle)
+- [x] 🕹 Support for custom video player (API)
+- [x] 🎧 Audio Online
+- [x] 🚀 Faster speed
+
+
 ## Contributer:
 
 In Search of....
 
-
-  * Nested bullet
-      * Sub-nested bullet etc
-           * Bullet list item 2
 
