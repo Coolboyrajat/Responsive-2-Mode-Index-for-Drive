@@ -259,7 +259,7 @@
   width: 1.37em;
   filter: invert(1);
 }
-.social-media a img:hover {
+.social-media a:hover  img{
   filter: invert(0);
 }
 .sidebar.open .nav-list li .social-media a img {
