@@ -34,13 +34,15 @@
 - [x] 🗂 Multi drive switching
 - [ ] <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="16px" width="16"/> Search whole DRIVE / TEAM DRIVES through root drive [if and only root_drive_mail is provided ]  or Selected Team Drives 
 - [x] 🔐 Http Basic Auth
-- [x] 🎨 Grid view mode (File Preview)
+- [x] 🎨 View mode (File Preview)
 - [x] 🎯 Paging load
 - [x] 🖥 Video Online ( .vtt subtitle)
 - [x] 🕹 Support for custom video player (API)
 - [x] 🎧 Audio Online
 - [x] 🚀 Faster speed
+- [x] 🔥 New Icons 
 
+<br>
 
 ## Contributer:
 
