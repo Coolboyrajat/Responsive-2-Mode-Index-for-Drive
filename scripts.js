@@ -16,51 +16,33 @@
   // following are the code to change sidebar button(optional)
   function menuBtnChange() {
    if(sidebar.classList.contains("open")){
-     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the icons class
    }else {
-     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the icons class
    }
   }
-  
-  function show_setting_menu() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches()) {
-    var dropdowns = document.getElementsByClassName("settings-dropdown-menu");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+  
+  
+//  ****** My changes ******
 
 function viewBtnChange(x) {
   x.classList.toggle("bxs-grid");
 }
 
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+// Close the dropdown menu if the user clicks outside 
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+
+
+
+// dropdown menu in settings (sucessfull)
+
+let settingsMenu = document.querySelector("#showSettingMenu");
+let items = document.querySelector('.setting-dropdown');
+let arrow = document.querySelector('.fi-rr-caret-up');
+
+settingsMenu.addEventListener("click", ()=>{
+  items.classList.toggle("active");
+  arrow.classList.toggle("active");
+});
