@@ -7,25 +7,33 @@
   - [ ] Toggle Using Javascript
   - [ ] Pull data from Google Drive using api
   - [ ] Using React Js, deploy the WebApp in cloudflare.
+  - [ ] Deploy for Public use.
  
    
  
  ##
 
 * [Link 1](https://responsive-sidebar-navigation-menu.netlify.app/)
-* [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html)
+* [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html)      
 
 <br>
+  <img src="https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=15%3A113&scaling=min-zoom&page-id=0%3A1" height="910px"  width="420px" />
+  
+  * [Click Here to view PROTO-TYPE](https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=15%3A113&scaling=min-zoom&page-id=0%3A1)
+  <br>
 
 # Objective 
 
 1. Light/Dark Mode
-2. Toggle Menu Sidebar → Navbar && Navbar → Sidebar.
+2. Toggle Menu `Sidebar → Navbar` && `Navbar → Sidebar`.
     > Responsive 2 Mode
-4. Expand when Hover (Desktop view) or Magic View.
-    > Example google search when you search movies/anime
-6. Sudo User
-    > Permission to Edit/Change Content on Page.
+3. Enlarge when Hover over media file (Desktop view) or Magic View.
+    > Example Google search when you search movies/anime
+4. Web App
+    > Light weight web application.
+5. Android App (Optional)
+    > Indexer were you can paste your index links.
+    
 <br>
 
 ## Features
