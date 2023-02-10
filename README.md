@@ -17,9 +17,16 @@
 * [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html)      
 
 <br>
-  <img src="https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=15%3A113&scaling=min-zoom&page-id=0%3A1" height="910px"  width="420px" />
+
+  <img src="" height="700px"  width="420px" />
   
-  * [Click Here to view PROTO-TYPE](https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=15%3A113&scaling=min-zoom&page-id=0%3A1)
+ ## [Select appropiate device to view PROTO-TYPE]()
+ 
+ - [Desktop](https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=15%3A113&scaling=min-zoom&page-id=0%3A1)
+ - [Mobile](https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=254%3A131&scaling=min-zoom&page-id=0%3A1)
+    
+  > ⭐ Recommended: Use Figma App for best experience.
+  
   <br>
 
 # Objective 
