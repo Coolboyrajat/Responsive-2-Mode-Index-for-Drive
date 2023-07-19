@@ -1,45 +1,32 @@
-# Responsive-2-Mode-Index-for-Drive
-# About  
-#### This the currently a Front-End Page using HTML, CSS and JAVASCRIPT. I'm currently working with Javascript to make it more responsive.
-# Aim <br>
-  - [x] Front-End Deploymnet
-  - [ ] Make Page Responsive 
-  - [ ] Toggle Using Javascript
-  - [ ] Pull data from Google Drive using api
-  - [ ] Using React Js, deploy the WebApp in cloudflare.
-  - [ ] Deploy for Public use.
- 
-   
- 
- ##
+# Responsive-2-Mode-Index-for-Drive <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="32px" width="32"/>
 
-* [Link 1](https://responsive-sidebar-navigation-menu.netlify.app/)
-* [Link 2](https://radioactive-zone-workers-web.on.drv.tw/Responsive%20SideBar/Index.html)      
+## About
+This is a Front-End Page using HTML, CSS, and JAVASCRIPT. I'm currently working with Javascript to make it more responsive.
 
 <br>
 
-  <img src="" height="700px"  width="420px" />
-  
- ## [Select appropiate device to view PROTO-TYPE]()
- 
- - [Desktop](https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=15%3A113&scaling=min-zoom&page-id=0%3A1)
- - [Mobile](https://www.figma.com/proto/NKLbQG6fQKo1GbJKDDWT0d/Responsive-index?node-id=254%3A131&scaling=min-zoom&page-id=0%3A1)
-    
-  > ⭐ Recommended: Use Figma App for best experience.
-  
-  <br>
+## Aim <br>
+  - [ ] Responsive Page
+  - [ ] Pull data using Google Drive API
+  - [ ] Using React Js, deploy the WebApp in Cloudflare.
 
-# Objective 
+<!-- [Link 1](https://responsive-sidebar-navigation-menu.netlify.app/)  -->
 
-1. Light/Dark Mode
-2. Toggle Menu `Sidebar → Navbar` && `Navbar → Sidebar`.
+<br>
+
+## Objective 
+
+1. Web App
+    > Light-weight web application.
+2. Light/Dark Mode
+3. Toggle Menu `Sidebar → Navbar` && `Navbar → Sidebar`.
     > Responsive 2 Mode
-3. Enlarge when Hover over media file (Desktop view) or Magic View.
-    > Example Google search when you search movies/anime
-4. Web App
-    > Light weight web application.
-5. Android App (Optional)
-    > Indexer were you can paste your index links.
+4. Magic View
+    > 3 modes for viewing items
+5. Favourite Tab
+   > Create a list of downloads for the current session
+7. Android App (Optional)
+    > Indexer where you can paste your index links.
     
 <br>
 
