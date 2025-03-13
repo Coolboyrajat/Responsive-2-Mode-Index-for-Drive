@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* List View  */
+
+
+
+/* Compact View  */
+.Items {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.frame {
+    box-sizing: border-box;
+
+    position: relative;
+    height: 130px;    
+    width: 160px;
+
+    background: #2B3139;
+    border: 0.5px solid #000000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+/* Mini Drop-Down Menu  */
+img.menu-dots {
+    position: absolute;
+    height: 15px;
+    right: 14px;
+    top: 14px;
+}
+
+

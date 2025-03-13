@@ -1,0 +1,79 @@
+body {
+    background: #2B3139;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.path-view {
+    position: absolute;
+    width: 85vw;
+    height: 2.5rem;
+    left: 7.6rem;
+    top: 134px;
+
+    display: flex;
+    flex-direction: row;
+}
+.home, .seperator {
+    display: inline-block;
+    padding: 0 4px;
+}
+.path {
+    display: flex;
+    align-items: center;
+
+}
+.dropdown {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    right: 176px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.path img, .dropdown img {
+    width: 10px;
+    height: 10px;
+}
+
+.view {
+    position: absolute;
+    width: 10rem;
+    height: 100%;
+    right: 0;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view span {
+    position: absolute;
+    width: auto;
+    right: 44px;
+
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+    color: rgba(255, 255, 255, 0.66);
+}
+.view .icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}

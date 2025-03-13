@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav div.navbar{
+    position: absolute;
+    width: 100vw;   /*... max-width cannot be set to 100vw */
+    height: 72px;
+    background-color:#11101D;
+    z-index: 99;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo img {
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    left: 14px;
+    top: 8px;
+    filter: invert(1);
+}
+
+.theme img {
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    right: 23px;
+    top: 18px;
+    
+    filter: invert(1);
+}
+
+/* Mobile view  */
+
+@media screen and (max-width: 600px) {}
+
+/* Desktop View  */
+
+@media screen and (max-width: 2160px) {
+    .sidebar.Search {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        right: 90px;
+        top: 15px;
+
+        background: #202328;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .sidebar.Search img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 13px;
+        top: 13px;
+
+        filter: invert(1);
+    }
+    .sidebar.Search span {display: none;}
+    .theme {cursor: pointer;}
+}

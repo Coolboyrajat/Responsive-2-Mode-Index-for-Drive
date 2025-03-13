@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.social-media.github {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    bottom: 97px;
+
+    background: #212730;
+    border-radius: 10px;
+}
+.social-media.telegram {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    bottom: 39px;
+
+    background: #212730;
+    border-radius: 10px;
+}
+
+.social-media img {
+    filter: invert(1);
+}
+
+.social-media.github img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 9px;
+    top: 9px;
+}
+.social-media.telegram img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 9px;
+    top: 9px;
+}
+
+/* For Desktop view  */
+
+.social-media span {
+    display: none;
+}
+
+.social-media a:hover span {
+    display: block;
+}

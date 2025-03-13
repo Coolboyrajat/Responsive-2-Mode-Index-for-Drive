@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav div.navbar{
+    position: absolute;
+    width: 100vw;   /*... max-width cannot be set to 100vw */
+    height: 72px;  /*54px Final*/
+    background-color:#11101D;
+    z-index: 99;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo img {
+    position: absolute;
+    width: 50px;   /*38px Final */
+    height: 55px;  /*41px Final */
+    left: 14px;    /*10px Final */
+    top: 8px;     /*6px Final */
+    filter: invert(1);
+}
+
+.theme img {
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    right: 23px;
+    top: 18px;
+}
+/* Navbar CSS Ends  */
+
+/* Home Section CSS Starts  */
+.__container {
+    position: absolute;
+    display: flex;
+    height: max-content;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Section I  */
+/* Sidebar CSS Start  */
+
+.sidebar.Container {
+    position: relative;
+    width: 75px;
+    height: 100vh;
+    top: 72px;
+    
+    background: #11101D;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.sidebar.arrow img {
+    width: 22px;
+    height: 22px;
+    left: 26px;
+    top: 24px;
+}
+
+.sidebar.Search img {
+    width: 28px;
+    height: 28px;
+    left: 24px;
+    top: 147px;
+}
+.sidebar.Home img {
+    width: 24px;
+    height: 24px;
+    left: 26px;
+    top: 225px;
+
+}
+.sidebar.Saved img {
+    width: 24px;
+    height: 24px;
+    left: 26px;
+    top: 290px;
+}
+.sidebar.View img {
+    width: 24px;
+    height: 24px;
+    left: 26px;
+    top: 356.58px;
+}
+.sidebar.Settings img {
+    width: 25px;
+    height: 25px;
+    left: 26px;
+    top: 435px;
+}
+
+.sidebar img {
+    position: absolute;
+    display: block;
+    margin: auto;
+}
+
+.sidebar span{
+    position: absolute;
+   
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    width: auto;
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.sidebar.Search span {
+    height: 12px;
+    left: 24px;
+    top: 188px;
+}
+.sidebar.Home span {
+    height: 10px;
+    left: 25px;
+    top: 263px;
+    color: #fff;
+}
+.sidebar.Saved span {
+    height: 12px;
+    left: 25px;
+    right: 22px;
+    top: 326px;
+}
+.sidebar.View span {
+    height: 10px;
+    left: 9px;
+    right: 8px;
+    top: 399px;
+}
+.sidebar.Settings span {
+    height: 12px;
+    left: 20px;
+    top: 469px;
+}
+/* Sidebar CSS Ends  */
+
+/* Social Media CSS Start  */
+.social-media.github {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    bottom: 97px;
+
+    background: #212730;
+    border-radius: 10px;
+}
+.social-media.telegram {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    bottom: 39px;
+
+    background: #212730;
+    border-radius: 10px;
+}
+
+.social-media.github img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 9px;
+    top: 9px;
+}
+.social-media.telegram img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 9px;
+    top: 9px;
+}
+/* Social Media CSS Ends  */
+/* Section I CSS End  */
+
+/* Section II CSS Start  */
+.sec2 {position: relative;}
+
+/* Path-View CSS  */
+body {
+    background: #2B3139;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.path-view {
+    position: absolute;
+    width: 85vw;
+    height: 41px;
+    left: 5rem;
+    top: 134px;
+
+    display: flex;
+}
+.path p{
+    position: absolute;
+    width: auto;
+    height: 25px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 27px;
+    
+    display: flex;
+    align-items: center;
+    color: #D8D6D6;
+}
+.path img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 175px;
+    top: 14px;
+}
+
+/* Mobile View  */
+
+@media screen and (max-width: 600px) {
+    .path-view {left: 1rem;}
+    .path {
+        max-width: 380px;
+        height: 32px;
+        left: 25px;
+        top: 134px;
+    }
+    .path img {
+        position: absolute;
+        width: 15.65px;
+        height: 12px;
+        right: 3.2rem;
+        top: 15px;
+    }
+    .view {display: none;}
+}
+
+
+/* Desktop View  */
+
+@media screen and (max-width: 2160px) {
+    .path p{
+        left: 12px;
+        top: 7px;    
+        cursor: pointer;
+        white-space: pre;
+    }
+
+    .view {cursor: pointer;}
+    .view span {
+        position: absolute;
+        width: 102px;
+        height: 18px;
+        right: 32px;
+        top: 11px;
+        
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+    
+        color: rgba(255, 255, 255, 0.66);
+    }
+    .view img {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 26px;
+        top: 8px;
+    }
+}
+/* Path-View CSS Ends  */
+
+/* Home Section - Main Frame  */
+/* Categories CSS Starts  */
+.Main {
+    position: absolute;
+    height: 100%;
+    left: 5rem;
+    width: 85vw;
+    top: 190px;
+
+    background: rgba(50, 56, 64, 0.5);
+    border-radius: 15px;
+}
+.Main .toolbar {
+    position: relative;
+    height: 70px;
+    display: flex;
+}
+.Main .toolbar.file {
+    position: absolute;
+    width: 770px;
+    height: 48px;
+    left: 16px;
+    top: 10px;
+    
+    background: rgba(115, 137, 171, 0.68);
+    border-radius: 10px;
+}
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toolbar p {
+    position: absolute;
+    width: auto;
+    height: 22px;    
+    top: 13px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+.file p {
+    left: 40px;
+}
+
+.toolbar.time {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    right: 300px;
+    top: 10px;
+
+    background: rgba(115, 137, 171, 0.68);
+    border-radius: 10px;
+}
+
+.toolbar.size {
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    right: 180px;
+    top: 10px;
+
+    background: rgba(115, 137, 171, 0.68);
+    border-radius: 10px;
+}
+
+.toolbar.action {
+    position: absolute;
+    width: 140px;
+    height: 48px;
+    right: 22px;
+    top: 10px;
+
+    background: rgba(115, 137, 171, 0.68);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .Main {
+        left: 1%;
+        right: 1%;
+    }
+    .toolbar p {left: 20px;}
+    
+    /* list View  */
+    .toolbar.time, .toolbar.size {display: none;}
+
+    .Main .List .toolbar.file {
+        width: auto;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .Main .List .toolbar.action {
+        width: 100px;
+        right: 10px;
+    }
+    
+    /* Compact View & Gallery View */
+    .Compact .toolbar.time, .Compact .toolbar.size, .Compact .toolbar.action {display: none;}
+    
+    .Main .Compact .toolbar.file {
+        width: auto;
+        left: 10px;
+        right: 10px;
+    }
+}
+/* Categories CSS Ends  */
+
+/* Home Section - Layout CSS Starts */
+/* List View  */
+
+/* Compact View  */
+.main.Container .Items {display: flex;}
+
+.Items .frame1 p {
+    position: absolute;
+    height: 28px;
+    left: 5.71%;
+    right: 6.43%;
+    bottom: 5px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #CCDAFF;
+}
+.frame1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    left: 2.84%;
+    top: 100px;
+    overflow: hidden;
+
+    background: #2B3139;
+    border: 0.5px solid #000000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.frame1:hover {
+    width: 250px;
+    height: 250px;
+}
+.frame1:hover .mini-menu {
+    height: 50px;
+    width: 50px;
+}
+
+.frame1 .mini-menu {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+.frame1 .mini-menu img {
+    height: auto;
+    width: auto;
+}
+
+.frame2 {
+    box-sizing: border-box;
+
+    position: relative;
+    width: 180px;
+    height: 130px;
+
+    top: 100px;
+
+    background: #2B3139;
+    border: 0.5px solid #000000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}

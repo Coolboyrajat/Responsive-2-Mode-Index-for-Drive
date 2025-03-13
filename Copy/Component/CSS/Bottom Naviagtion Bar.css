@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {overflow: hidden;}
+
+.bottom.container {
+    position: fixed;
+    width: 100vw;
+    height: 85px;
+    left: 0px;
+    bottom: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #11101D;
+    box-shadow: 0px -7px 15px rgba(0, 0, 0, 0.25);
+    /* 0px → x-axis ; -7px → y-axis ; 15px → blur ; 0.25 visibility  */
+    z-index: 99;
+}
+
+
+.bottom.Home {
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* left: 21px; */
+    left: calc(12% - 60px/2);
+    bottom: 49px;
+    
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: #212730;
+}   
+.Home img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 13px;
+    bottom: 13px;
+}
+
+.bottom.Saved {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* left: 95px; */
+    left: calc(30% - 60px/2);
+    bottom: 14px;
+    
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: #212730;
+}
+.Saved img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 13px;
+    bottom: 12px;
+}
+
+.bottom.Search {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 60px/2);
+    bottom: 14px;
+    
+    border-radius: 30%;
+    background: #212730;
+}
+.Search img {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 16px;
+    bottom: 16px;
+}
+
+.bottom.View {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* right: 95px; */
+    right: calc(30% - 60px/2);
+    bottom: 14px;
+    
+    background: #212730;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+}
+.View img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 12px;
+    bottom: 13px;
+}
+
+.bottom.Settings {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* right: 20px; */
+    right: calc(12% - 60px/2);
+    bottom: 14px;
+    
+    background: #212730;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+}
+.Settings img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 12px;
+    bottom: 13px;
+
+    filter: invert(0);
+} 
+
+.bottom span {
+    position: absolute;
+    width: auto;
+    height: 12px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.66);
+}
+.bottom.Home span {
+    height: 10px;
+    left: 10px;
+    bottom: -30px;
+    
+    font-weight: 600;
+    font-size: 8px;
+    letter-spacing: 0.3em;
+    
+    color: #FFFFFF;
+}
+.bottom span {
+    left: 8px;
+    bottom: -30px;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #2B3139;
+    --secondary: #11101D;
+    --tertiary: #1D1B31;
+}
+body{
+    background-color: var(--main-bg-color);
+    /* padding: 10px; */
+}
+
+.flex {
+    display: flex;
+}
+img {
+    width: 100%;
+}
+.sidebar {
+    position: fixed;
+    width: 70px;
+    background-color: var(--secondary);
+    height: calc(100vh - 20px);
+
+    /* The operators + and - require whitespace before and after. Try calc(100% - 100px).
+       With the * operator you don't need whitespace ex. calc(100%(1/15)) 
+       vh = 1% of the height of the viewport. */
+
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 8px;
+    padding: 20px 14px;
+    flex-direction: column;
+    
+}
+.sidebar-items {
+    
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+.search-icon {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    margin: 0 auto 8px;
+}
+.search-icon, .dots {
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    color: #fff;
+}
+
+span {
+    line-height: 12px;
+}
+
+li, .search {
+    list-style-type: none;
+    margin-bottom: 24px;
+}
+li img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+.link-name {
+    font-size: 10px;
+}
+
+.support {
+    position: fixed;
+    bottom: 72px;
+}
+
+.dots {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    bottom: 20px;
+}

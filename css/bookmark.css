@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bookmark_panel {
+    position: absolute;
+    margin: 10px 8px;
+    width: 288px;
+    max-width: 704px;
+    min-width: 260px;
+    height: calc(100% - 20px);
+    right: 0;
+    background-color: #11101D;
+    border-radius: 12px;
+}
+#resize {
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    cursor: w-resize;
+}

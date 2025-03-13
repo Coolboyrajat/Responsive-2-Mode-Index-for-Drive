@@ -1,3 +1,9 @@
+:root {
+  --background-crazy-white: #F4F5F8;
+  --background-material-black: #2B3139;
+  --background-night-fury: #0f0f0f;
+}
+
 /* Google Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -6,6 +12,9 @@
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
 }
+
+body {background: var(--background-material-black);}
+
 .sidebar{
   position: fixed;
   left: 0;
@@ -14,11 +23,11 @@
   width: 78px;
   background: #11101D;
   padding: 6px 14px;
-  z-index: 99;
+  z-index: 2;
   transition: all 0.5s ease;
 }
 .sidebar.open{
-  width: 250px;
+  width: 16rem;
 }
 .sidebar .logo-details{
   height: 60px;
@@ -176,18 +185,23 @@
 
 .home-section{
   position: relative;
-  background: #E4E9F7;
+  /* background: #E4E9F7; */
   min-height: 100vh;
   top: 0;
   left: 78px;
   width: calc(100% - 78px);
   transition: all 0.5s ease;
-  z-index: 2;
+  z-index: 4;
 }
 .sidebar.open ~ .home-section{
-  left: 250px;
-  width: calc(100% - 250px);
+  left: 16rem;
+  width: calc(100% - 16rem);
 }
+.sidebar.open ~ .favourite.active{
+  left: 16rem;
+  width: calc(100% - 16rem);
+}
+
 .home-section .text{
   display: inline-block;
   color: #11101d;
@@ -204,27 +218,25 @@
 /* My Changes */
 
 .sidebar .nav-list i.bx-info-circle,
-.sidebar .settings i.fi {
+.sidebar .settings i.fi,
+.sidebar #arrow.fi.fi-rr-caret-up{
   display: none;
  }
  
 .sidebar.open .nav-list i.bx-info-circle,
-.sidebar.open .settings i.fi {
+.sidebar.open .settings i.fi,
+.sidebar #arrow.fi.fi-rr-caret-up {
   display: block;
-}
-
-.sidebar.open .nav-list i.bx-info-circle::before{
-  padding-left: 60px;
 }
 
 .sidebar .nav-list .setting-dropdown .settings-dropdown-menu,
 .sidebar.open .nav-list .setting-dropdown .settings-dropdown-menu {
   display: none; 
 }
-
+/* ...Javascript work */
 .sidebar.open .nav-list .nav-items.settings .setting-dropdown.active .settings-dropdown-menu {
-  display: block;  /* ...Javascript work */
-  transition: all 1s ease-in;
+  display: block;  
+  transition: all 0.5s ease;
 }
 
 .sidebar.open .nav-list .settings-dropdown-menu {
@@ -244,67 +256,53 @@
   transform: rotate(180deg) translateY(2px);
   color: cyan;
 }
-.social-media {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
-  height: 90px;
-}
-.social-media a {
-  position: relative;
-  justify-content: center;
-  align-content: center;
-  margin: 4px 2px;
-  max-height: 60px;
-}
-.social-media a img {
-  margin: 0;
-  bottom: 20px;
-  max-height: 60px;
-  height: 1.37em;
-  width: 1.37em;
-  filter: invert(1);
-}
-.social-media a:hover img {
-  filter: invert(0);
-}
-.sidebar.open .nav-list li .social-media a img {
-  height: 1.52em;
-  width: 1.52em; 
-}
-.sidebar.open .nav-list .social-media {
-  flex-direction: row; 
+
+/* Contacts */
+.telegram, .discord, .github {
+  display: inline-block;
+  height: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-  .sidebar {
-    overflow: scroll;
-    overflow-x: hidden;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
+.telegram a img, .github a img, .discord a img {
+  filter: invert(1);
 }
+
+.telegram a:hover img, .github a:hover img, .discord a:hover img {
+  filter: invert(0);
+}
+.sidebar .contact {
+  display: none;
+}
+
+img.top-nav {
+  min-width: 50px;
+  /* filter: invert(1); */
+}
+li.settings.toggle a {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+
   /* ==== HOME SECTION =====  */
   
-.home-section {
-  position: relative;
-  z-index: 100;
-}
-.home-section svg, .home-section img {
-  float: right;
-  height: 2.5em;
-  width: 2.5em;
+.home-section .theme {
+  position: absolute;
+  right: 0px;
+  height: 1.5em;
+  width: 1.5em;
   margin: 1.15em 2em;
   cursor: pointer;
 }
+
 .home-section img {
   position: fixed;
   margin: 1.2em 0;
-  right: 6.5em;
+  transform: translateY(5px);
+  right: 6em;
+}
+.home-section svg#sun {
+  display: none;
 }
 
 .home-section img.test {
@@ -316,4 +314,40 @@
   width: auto;
   left: 500px;
   cursor: default;
+}
+
+.nav-items.home a, .nav-items.drives a {
+  line-height: 50px;
+}
+.nav-items a img {
+  position: relative;
+  height: 24px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items.home a:hover img, a:hover img.toggle {
+  filter: invert(1);
+}
+
+#arrow, #infobtn {
+  position: absolute;
+  right: 0;
+}
+a img.toggle {
+  height: 50px;
+  margin: 0 13px;
+}
+img.toggle {
+  height: 24px;
+  width: 24px;
+  filter: invert(1);
+}
+a:hover img.toggle {
+  filter: invert(0);
+}
+
+.nav-items.drives a img {
+  height: 20px;
 }

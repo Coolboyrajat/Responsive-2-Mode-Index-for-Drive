@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 85px;
+    height: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle1 {
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 50%;    
+    background: #000000;
+    
+    order: 0;
+}
+
+.circle2 {
+    width: 6px;
+    height: 6px;
+    Top: 2px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    
+    order: 1;
+}
+
+.circle3 {
+    width: 5px;
+    height: 5px;
+    Top: 2.5px;
+    Left: 28px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    
+    order: 2;
+}
+
+.circle4 {
+    width: 5px;
+    height: 5px;
+    Top: 2.5px;
+    Left: 39px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+
+    order: 3;
+}
+
+.circle5 {
+    width: 4px;
+    height: 4px;
+    Top: 3px;
+    Left: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+
+    order: 4;
+}
+
+.circle6 {
+    width: 4px;
+    height: 4px;
+    Top: 3px;
+    Left: 60px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+
+    order: 5;
+}
+
+.circle7 {
+    width: 3px;
+    height: 3px;
+    Top: 3.5px;
+    Left: 70px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+
+    order: 6;
+}
+
+.circle8 {
+    width: 3px;
+    height: 3px;
+    Top: 3.5px;
+    Left: 79px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+
+    order: 7;
+}
