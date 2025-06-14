@@ -1,17 +1,13 @@
-# Responsive-2-Mode-Index-for-Drive <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="32px" width="32"/>
+# <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="32" width="32" style="position:relative; top:6px"/> Indexer 
 
 ## About
 This is a Front-End Page using HTML, CSS, and JAVASCRIPT. I'm currently working with Javascript to make it more responsive.
-
 <br>
 
 ## Aim <br>
-  - [ ] Responsive Page
-  - [ ] Pull data using Google Drive API
-  - [ ] Using React Js, deploy the WebApp in Cloudflare.
-
-<!-- [Link 1](https://responsive-sidebar-navigation-menu.netlify.app/)  -->
-
+  - [ - ] Responsive Page
+  - [ - ] Pull data using Google Drive API
+  - [ - ] Using Next.js, deploy the WebApp in Cloudflare.
 <br>
 
 ## Objective 
@@ -27,14 +23,13 @@ This is a Front-End Page using HTML, CSS, and JAVASCRIPT. I'm currently working 
    > Create a list of downloads for the current session
 7. Android App (Optional)
     > Indexer where you can paste your index links.
-    
 <br>
 
 ## Features
 
 - [x] 👑 Page-level caching, browser forward and backward without reloading (MAC users have a better experience with the trackpad)
 - [x] 🗂 Multi drive switching
-- [ ] <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="16px" width="16"/> Search whole `DRIVE / TEAM DRIVES` through root drive `[if and only root_drive_mail is provided ]`  or Selected Team Drives 
+- [ ] <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" height="16" width="16" style="position:relative; top:3px; left:2px"/>&nbsp; Search whole `DRIVE / TEAM DRIVES` through root drive `[if and only root_drive_mail is provided ]`  or Selected Team Drives 
 - [x] 🔐 Http Basic Auth
 - [x] 🎨 View mode (File Preview)
 - [x] 🎯 Paging load
